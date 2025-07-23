@@ -641,3 +641,38 @@ header{
         grid-template-columns: repeat(auto-fit, minmax(244px, auto));
     }
 }
+
+@media (max-width: 712px){
+    .container img{
+        right: 20px;
+    }
+    .heading h1{
+        font-size: 1.2rem;
+    }
+    .about{
+        grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
+    }
+    .about img{
+        order: 2;
+    }
+    .about-text{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn{
+        max-width: 164px;
+    }
+    .customers h2{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 642px){
+    .container img{
+        width: 300px;
+        right: 0;
+    }
+}
