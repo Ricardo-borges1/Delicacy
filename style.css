@@ -590,6 +590,9 @@ header{
     .home-text h1{
         font-size: 2rem;
     }
+   .home-text{
+    padding: 0 5%;
+   } 
     .swiper-button-next,
     .swiper-button-prev{
         margin: 0;
@@ -672,7 +675,42 @@ header{
 
 @media (max-width: 642px){
     .container img{
-        width: 300px;
+        width: 370px;
         right: 0;
+    }
+}
+
+@media (max-width: 546px){
+    .container img{
+        width: 370px;
+        right: 0;
+        height: 820px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 370px){
+    .logo{
+        font-size: 1rem;
+    }
+    .profile img{
+        width: 30px;
+        height: 30px;
+    }
+    .profile span{
+        font-size: 10px;
+    }
+    .home-text{
+        padding-bottom: 17rem;
+    }
+    .home-text span{
+        font-size: 0.8rem;
+    }
+    .home-text h1{
+        font-size: 1.5rem;
+    }
+    .heading{
+        flex-direction: column;
+        text-align: center;
     }
 }
